@@ -40,6 +40,13 @@ html .header ul {
   margin-right: 3rem;
 }
 
+@media only screen and (max-width: 40em) {
+  body .header ul,
+  html .header ul {
+    margin-right: 4rem;
+  }
+}
+
 body .header ul li,
 html .header ul li {
   margin-right: 3rem;
@@ -65,10 +72,24 @@ html section.hero {
           justify-content: center;
 }
 
+@media only screen and (max-width: 40em) {
+  body section.hero,
+  html section.hero {
+    height: 30rem;
+  }
+}
+
 body section.hero h1,
 html section.hero h1 {
   color: #fff;
   font-size: 72px;
+}
+
+@media only screen and (max-width: 40em) {
+  body section.hero h1,
+  html section.hero h1 {
+    font-size: 3rem;
+  }
 }
 
 body .about,
@@ -90,6 +111,13 @@ html .about p {
   margin-top: 10vh;
   position: relative;
   line-height: 1.5;
+}
+
+@media only screen and (max-width: 40em) {
+  body .about p,
+  html .about p {
+    width: 80vw;
+  }
 }
 
 body .about .border,
