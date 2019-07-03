@@ -37,6 +37,9 @@ html {
         font-weight: bold;
         font-size: 0.75rem;
         cursor: pointer;
+        &.red {
+          color: #ff5959;
+        }
       }
     }
   }

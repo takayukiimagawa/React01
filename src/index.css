@@ -55,6 +55,11 @@ html .header ul li {
   cursor: pointer;
 }
 
+body .header ul li.red,
+html .header ul li.red {
+  color: #ff5959;
+}
+
 body section.hero,
 html section.hero {
   width: 100%;
