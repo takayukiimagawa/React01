@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Hero from "./hero";
 import About from "./about";
+import Lorem from "./lorem";
 
 class Hello extends Component {
   state = {
@@ -27,6 +28,7 @@ class Hello extends Component {
         </div>
         <Hero />
         <About />
+        <Lorem />
       </div>
     );
   }
