@@ -18,6 +18,7 @@ class Hello extends Component {
       <div>
         <div className="header">
           <p>HEADER</p>
+          <Lorem />
           <ul>
             <li
               onClick={() => this.setState({ active: !active })}
